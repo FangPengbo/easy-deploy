@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: easy-deploy
+  profiles:
+    active: dev
+server:
+  port: 8198
+  servlet:
+    context-path: /${spring.application.name}
+
